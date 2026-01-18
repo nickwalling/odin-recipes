@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 36px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.ingredients-list > li,
+.steps-list > li {
+    margin-bottom: 4px;
+}
+
+
+/*ingredients*/
+.ingredients-block {
+    background-color: #2d2d2d;
+}
+
+.ingredients-title {
+    margin: 8px 0px 0px 0px;
+    padding: 8px;
+    color: white;
+}
+
+.ingredients-list {
+    list-style-type: none;
+    color: white;
+    padding: 0px 0px 16px 16px;
+    margin-top: 0px;
+}
+
+/*steps*/
+.steps-block {
+    background-color: darkgrey;
+}
+
+.steps-title {
+    margin: 8px 0px 0px 0px;
+    padding: 8px;
+}
+
+.steps-list {
+    list-style-type: none;
+    padding: 0px 0px 16px 16px;
+    margin-top: 0px;
+}
+
+.steps-list > li {
+    padding: 16px;
+}
+
+#step-one {
+    background-color: lightblue;
+    margin: 0px 16px 8px 0px;
+}
+
+#step-two {
+    background-color: lightcoral;
+    margin: 8px 16px 8px 0px;
+}
+
+#step-three {
+    background-color: lightgreen;
+    margin: 8px 16px 8px 0px;
+}
+
+/*HOME*/
+
+.recipe-link-item,
+.home-link {
+    padding: 12px;
+    font-weight: bold;
+    background-color: #2d2d2d;
+}
+
+.recipe-link-item {
+    display: inline-block;
+    margin: 8px;
+}
+
+.recipe-link-list {
+    margin: 24px;
+    list-style-type: none;
+}
+
+.recipe-link:link,.recipe-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+.recipe-title {
+    /*margin: 60px 0px 36px 36px;*/
+    font-size: 48px;
+}
+
+.home-link:link,.home-link:visited {
+    text-decoration: none;
+    color: white;
+}
